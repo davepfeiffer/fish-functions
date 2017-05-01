@@ -7,10 +7,10 @@ To use:
 - place desired scripts in `~/.config/fish/functions/`
 - call the functions by their names
 
-# Function Descriptions
+# functions
 ## mkpdf - A latex quality of life script
-Accepts the name of a .tex file (without the extension) and generates a pdf from the file. If the generation succeeds, the file is opened--otherwise the log is printed.
+[mkpdf](https://github.com/davepfeiffer/fish-functions/blob/master/mkpdf.fish) accepts the name of a .tex file (without the extension) and generates a pdf from the file. If the generation succeeds, the file is opened--otherwise the log is printed.
 *intended to be used with texlive*
 ## mkd - A mkdir alias
-Makes and decends into a directory specified by the arguement.
+[mkd](https://github.com/davepfeiffer/fish-functions/blob/master/mkd.fish) akes and decends into a directory specified by the arguement.
 *written by [@geowarin](https://github.com/geowarin)*
