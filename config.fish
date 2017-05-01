@@ -10,7 +10,7 @@ set fish_color_command -o F92672
 set fish_color_quote E6DB74
 set fish_color_redirection F92672
 set fihs_color_end F92672
-set fish_color_error -o 75715E
+set fish_color_error -o AE81FF
 set fish_color_param FD971F
 set fish_color_comment 75715E
 set fish_color_match 66D9EF
