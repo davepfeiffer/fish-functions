@@ -16,6 +16,6 @@ A repository for personal fish-shell scripts. Feel free to use them (at your own
 *written by [@geowarin](https://github.com/geowarin)*
 
 ## config - a fish configuration file
-Configures fish to a monokai dark color scheme and a more bash-like prompt.
+Configures fish to a [monokai dark](http://www.colourlovers.com/palette/1718713/Monokai) color scheme and a more bash-like prompt.
 
-Make sure to comment out or remove setup specific commands.
+*make sure to comment out or remove setup specific commands*
