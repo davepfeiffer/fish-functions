@@ -11,6 +11,11 @@ A repository for personal fish-shell scripts. Feel free to use them (at your own
 *intended to be used with texlive*
 
 ## mkd - a mkdir alias
-[mkd](https://github.com/davepfeiffer/fish-functions/blob/master/mkd.fish) akes and decends into a directory specified by the arguement.
+[mkd](https://github.com/davepfeiffer/fish-functions/blob/master/mkd.fish) makes and decends into a directory specified by the arguement.
 
 *written by [@geowarin](https://github.com/geowarin)*
+
+## config - a fish configuration file
+Configures fish to a monokai dark color scheme and a more bash-like prompt.
+
+Make sure to comment out or remove setup specific commands.

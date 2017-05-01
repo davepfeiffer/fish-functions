@@ -1,5 +1,5 @@
 # this is a login script for fish
-# move to ~/.config/fish/config.fish
+# move to `~/.config/fish/config.fish` or create a symbolic link
 
 # remove login greeting
 set fish_greeting ""
