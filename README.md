@@ -10,6 +10,10 @@ A repository for personal fish-shell scripts. Feel free to use them (at your own
 
 *intended to be used with texlive*
 
+## back - a navigation quality of life script
+
+[back](https://github.com/davepfeiffer/fish-functions/blob/master/back.fish) accepts a non-negative integer and travels back that many parent directories.
+
 ## mkd - a mkdir alias
 [mkd](https://github.com/davepfeiffer/fish-functions/blob/master/mkd.fish) makes and decends into a directory specified by the arguement.
 
