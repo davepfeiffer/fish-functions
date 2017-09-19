@@ -32,11 +32,10 @@ function fish_prompt
 	echo -n '$ '
 end
 
-# add brew programs to path
-# set PATH $PATH $HOME/.linuxbrew/bin
+# Start X at login
+if status --is-login
+    if test -z "$DISPLAY" -a $XDG_VTNR = 1
+        exec startx -- -keeptty
+    end
+end
 
-set PATH $PATH $HOME/.gem/ruby/2.4.0/bin
-
-# initialize opam and add packages to path
-# /bin/bash ~/.opam/opam-init/init.sh > /dev/null ^ /dev/null; or true
-# eval 'opam config env' > /dev/null ^ /dev/null
