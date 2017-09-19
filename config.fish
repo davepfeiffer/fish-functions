@@ -38,5 +38,6 @@ end
 set PATH $PATH $HOME/.gem/ruby/2.4.0/bin
 
 # initialize opam and add packages to path
-# /bin/bash ~/.opam/opam-init/init.sh > /dev/null ^ /dev/null; or true
-# eval 'opam config env' > /dev/null ^ /dev/null
+sh /home/dave/.opam/opam-init/init.sh > /dev/null ^ /dev/null; or true
+eval (opam config env)
+
