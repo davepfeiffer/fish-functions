@@ -1,6 +1,5 @@
 #
-# Silly meme, changing the alias to "splain" or something 
-# would probably make more sense
+# Silly meme
 #
 function woman
   command man $argv
