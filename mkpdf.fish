@@ -10,6 +10,7 @@ function mkpdf
 	        set flags \
 	            -halt-on-error -output-directory=./output
 	        if xelatex $flags $argv > /dev/null ^ /dev/null
+              bibtex ./output/$name.aux > /dev/null
 	            evince ./output/$name.pdf &
 	        else
 	            cat ./output/$name.log
