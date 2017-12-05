@@ -11,5 +11,5 @@ function time
 | System  | %S     |
 | User    | %U     |
 +---------+----------+
-" ./$argv
+" $argv
 end
